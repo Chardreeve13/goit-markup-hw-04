@@ -438,6 +438,24 @@ button{
    
 }
 
+.customer-list-link{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width: 168px;
+    height: 88px;
+    background-color: var(--white);
+    border: 1px solid var(--lightslate);
+    border-radius: 4px;
+}
+.customer-list-link svg{
+    /* fill: var(--iris); */
+    width: 104px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+}
+/* 
 .customers-list-item{
     align-items: center;
     width: 168px;
@@ -451,7 +469,7 @@ button{
     height: 56px;
     align-items: center;
     margin:16px 32px;
-}
+} */
 
 .footer{
     display:block;
