@@ -238,6 +238,13 @@ button{
    align-items  : center;
 }
 
+.features-list-atenna{
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background: var(--cloud);
+}
+
 .features-list-title {
     color: var(--navyblue);
     font-size: 20px;
