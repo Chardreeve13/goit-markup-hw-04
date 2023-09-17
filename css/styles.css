@@ -357,14 +357,12 @@ button{
 } 
 .team-list-links-item{
     display: flex;
-    /* flex-direction: row; */
     list-style: none;
    
 
 }
 .team-list-links{
     display:flex;
-    /* flex-direction: row; */
     align-items: center;
     justify-content: center;
     gap:24px;
@@ -490,6 +488,25 @@ button{
     color: var(--ocean);
 }
 
+
+.footer-list-link{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--iris);
+    border-radius:22px;
+    
+}
+.footer-list-link svg{
+    fill: var(--cloud);
+    width: 16px;
+    height: 16px;
+    align-items:center;
+    justify-content: center;
+    
+}
 /* CSS for portfolio.html below */
 .menu {
     display:block;
