@@ -164,7 +164,7 @@ button{
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)), url('./images/images-main/people-office 1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)), url('../images/images-main/people-office 1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     justify-items: center;
