@@ -164,11 +164,16 @@ button{
 }
 
 .hero {
+    background: url(../images/images-main/hero-image.jpg);
     display:block;
-    background-color:var(--navyblue);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
     padding: 188px 0px;
-}
-
+    opacity: 0.70;
+   
+} 
 .hero-container{
     display:flex;
     flex-direction:column;
