@@ -357,13 +357,14 @@ button{
 } 
 .team-list-links-item{
     display: flex;
-    flex-direction:column;
+    /* flex-direction: row; */
     list-style: none;
+   
 
 }
 .team-list-links{
     display:flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     justify-content: center;
     gap:24px;
