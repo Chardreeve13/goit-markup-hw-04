@@ -380,7 +380,6 @@ button{
     
 }
 .team-list-link svg{
-    color: var(--white);
     width: 12px;
     height: 12px;
     align-items:center;
