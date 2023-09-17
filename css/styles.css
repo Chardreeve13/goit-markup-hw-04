@@ -443,8 +443,12 @@ button{
     background: var(--navyblue);
     padding:101.5px 0px;
 }
-
 .footer-container{
+    display:flex;
+    gap: 120px;
+}
+
+.footer-logo{
     display:flex;
     flex-direction: column;
     gap:17.5px;
@@ -501,11 +505,27 @@ button{
 }
 .footer-list-link svg{
     fill: var(--cloud);
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
     align-items:center;
-    justify-content: center;
-    
+    justify-content: center;  
+}
+
+.footer-list-links-item{
+    list-style:none;
+}
+.footer-list-links{
+    display:flex;
+    gap: 16px;
+    padding-top:16px;
+}
+.footer-title-links{
+    color: var(--white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
 }
 /* CSS for portfolio.html below */
 .menu {
