@@ -164,16 +164,15 @@ button{
 }
 
 .hero {
-    background: url(../images/images-main/hero-image.jpg);
-    display:block;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)), url('../images/images-main/people-office 1.jpg');
     background-position: center;
-    justify-content: center;
+    background-repeat: no-repeat;
+    justify-items: center;
     align-items: center;
-    padding: 188px 0px;
-    opacity: 0.70;
-   
-} 
+    height: 600px;
+    width: auto;
+}
+
 .hero-container{
     display:flex;
     flex-direction:column;
@@ -188,6 +187,7 @@ button{
     font-weight: 700;
     letter-spacing: 1.12px;
     text-align: center;
+    padding-top: 188px;
 }
 
 .hero-button {
@@ -422,7 +422,7 @@ button{
     text-align: center;
     font-size: 16px;
     font-style: normal;
-    ont-weight: 500;
+    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
     display: block;
