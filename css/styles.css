@@ -217,7 +217,7 @@ button{
     display: block;
     background-color: var(--white);
     padding:120px 0px;
-    /* margin-top: 120px; */
+   
 }
 
 .features-container {
@@ -231,18 +231,22 @@ button{
     list-style: none;
     width:100%;
     justify-content: space-between;
-    /* gap:24px; */
+   
 }
 
 .features-list-item{
-   align-items  : center;
+   align-items: center;
+   width: 264px;
+   height: 112px;
+   border-radius: 4px;
+   background: var(--cloud);
 }
 
-.features-list-atenna{
-    width: 264px;
-    height: 112px;
-    border-radius: 4px;
-    background: var(--cloud);
+.features-list-icon{
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    margin:24px 100px;
 }
 
 .features-list-title {
