@@ -215,7 +215,7 @@ button{
 
 .features{
     display: block;
-    background-color: var(--green);
+    background-color: var(--white);
     padding: 120px 0;
     margin-bottom: 0;
    
@@ -328,7 +328,7 @@ button{
 }
 
 .team-list-title-container{
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items:center;
     padding:32px 16px;
@@ -355,6 +355,37 @@ button{
     letter-spacing: 0.32px;
 
 } 
+.team-list-links-item{
+    display: flex;
+    flex-direction:column;
+    list-style: none;
+
+}
+.team-list-links{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:24px;
+    margin-top: 8px;
+}
+.team-list-link{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--iris);
+    border-radius:22px;
+    
+}
+.team-list-link svg{
+    color: var(--white);
+    width: 12px;
+    height: 12px;
+    align-items:center;
+    justify-content: center;
+}
 
 .image-thumbnails {
     width: 360px;
