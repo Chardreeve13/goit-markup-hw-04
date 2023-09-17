@@ -381,10 +381,12 @@ button{
     
 }
 .team-list-link svg{
-    width: 12px;
-    height: 12px;
+    fill: var(--cloud);
+    width: 16px;
+    height: 16px;
     align-items:center;
     justify-content: center;
+    
 }
 
 .image-thumbnails {
@@ -392,7 +394,50 @@ button{
     height: 300px;
     border: 1px solid var(--cornflower);
     background: var(--white);
+}
+.customers{
+    display:block;
+    background-color: var(--white);
+    padding:120px 0px;
+}
+.customers-container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 72px;
+}
 
+.customers-title{
+    display:inline-block;
+    color: var(--navyblue);
+    font-size: 36px;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.customers-list {
+    display:flex;
+    list-style: none;
+    width:100%;
+    justify-content: center;
+    gap: 24px;
+   
+}
+
+.customers-list-item{
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    border-radius: 4px;
+    border: 1px solid var(--lightslate);
+    
+ }
+.customers-list-icon{
+    width: 104px;
+    height: 56px;
+    align-items: center;
+    margin:16px 32px;
 }
 
 .footer{
@@ -407,6 +452,7 @@ button{
     gap:17.5px;
     padding:0px 15px;
 }
+
 .footer-logo-link{
         color: var(--iris);
         font-family: Raleway;
