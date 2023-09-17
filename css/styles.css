@@ -234,7 +234,7 @@ button{
     justify-content: space-between;
    
 }
-
+/* 
 .features-list-item{
    align-items: center;
    width: 264px;
@@ -248,8 +248,23 @@ button{
     height: 64px;
     align-items: center;
     margin:24px 100px;
+} */
+.features-list-link{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    background-color: var(--cloud);
+    border-radius: 4px;
 }
-
+.features-list-link svg{
+    /* fill: var(--iris); */
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+}
 .features-list-title {
     color: var(--navyblue);
     font-size: 20px;
