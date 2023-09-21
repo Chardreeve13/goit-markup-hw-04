@@ -181,11 +181,13 @@ button{
 
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)), url('../images/images-main/hero-image.jpg');
+    background-color: var(--navyblue);
     background-position: center;
     background-repeat: no-repeat;
     justify-items: center;
     align-items: center;
-    height: 600px;
+    /* height: 600px; */
+    padding: 188px 0;
     width: auto;
 }
 
@@ -203,7 +205,7 @@ button{
     font-weight: 700;
     letter-spacing: 1.12px;
     text-align: center;
-    padding-top: 188px;
+    
 }
 
 .hero-button {
@@ -233,7 +235,7 @@ button{
     display: block;
     background-color: var(--white);
     padding: 120px 0;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
    
 }
 
@@ -278,7 +280,7 @@ button{
 .services{
     display:block;
     background-color: var(--white);
-    margin: 120px 0;
+    padding-bottom: 120px;
 }
 
 .services-container{
@@ -392,6 +394,9 @@ button{
     background-color: var(--iris);
     border-radius:22px;
     
+}
+.team-list-link:hover{
+   background-color: var(--green);
 }
 .team-list-link svg{
     fill: var(--cloud);
@@ -518,7 +523,9 @@ button{
     height: 40px;
     background-color: var(--iris);
     border-radius:22px;
-    
+}
+.footer-list-link:hover{
+background-color: var(--green);
 }
 .footer-list-link svg{
     fill: var(--cloud);
